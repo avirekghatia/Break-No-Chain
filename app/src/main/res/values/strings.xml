@@ -3,4 +3,11 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_cheers">CheersActivity</string>
+    <string name="title_activity_create_goal">CreateGoalActivity</string>
+    <string name="title_activity_friends_goals">FriendsGoalsActivity</string>
+    <string name="title_activity_goal_details">GoalDetailsActivity</string>
+    <string name="title_activity_personal_notes">PersonalNotesActivity</string>
+    <string name="title_activity_rewards">RewardsActivity</string>
+    <string name="title_activity_view_goals">ViewGoalsActivity</string>
 </resources>

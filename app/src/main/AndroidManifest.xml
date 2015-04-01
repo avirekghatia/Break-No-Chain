@@ -8,13 +8,41 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".Controllers.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Controllers.CheersActivity"
+            android:label="@string/title_activity_cheers" >
+        </activity>
+        <activity
+            android:name=".Controllers.CreateGoalActivity"
+            android:label="@string/title_activity_create_goal" >
+        </activity>
+        <activity
+            android:name=".Controllers.FriendsGoalsActivity"
+            android:label="@string/title_activity_friends_goals" >
+        </activity>
+        <activity
+            android:name=".Controllers.GoalDetailsActivity"
+            android:label="@string/title_activity_goal_details" >
+        </activity>
+        <activity
+            android:name=".Controllers.PersonalNotesActivity"
+            android:label="@string/title_activity_personal_notes" >
+        </activity>
+        <activity
+            android:name=".Controllers.RewardsActivity"
+            android:label="@string/title_activity_rewards" >
+        </activity>
+        <activity
+            android:name=".Controllers.ViewGoalsActivity"
+            android:label="@string/title_activity_view_goals" >
         </activity>
     </application>
 
