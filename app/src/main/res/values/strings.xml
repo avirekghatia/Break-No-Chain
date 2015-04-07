@@ -8,6 +8,16 @@
     <string name="title_activity_friends_goals">FriendsGoalsActivity</string>
     <string name="title_activity_goal_details">GoalDetailsActivity</string>
     <string name="title_activity_personal_notes">PersonalNotesActivity</string>
+    <string name="register_button">Log me in!</string>
     <string name="title_activity_rewards">RewardsActivity</string>
     <string name="title_activity_view_goals">ViewGoalsActivity</string>
+    <string name="facebook_app_id">886116091410174</string>
+    <string name="title_activity_create_new_user">CreateNewUser</string>
+    <string name="newUserName">Name</string>
+    <string name="newUserEmail">Email</string>
+    <string name="newUserPhoneNumber">Phone Number</string>
+    <string name="newUserButtonRegisterMe">Register Me</string>
+    <string name="newUserPassword">Password</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_database_helper">DatabaseHelper</string>
 </resources>

@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.krishnaghatia.break_no_chain.Controllers.CreateNewUser">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newUserName"
+            android:id="@+id/textViewNewUserName"
+
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+
+            android:id="@+id/editTextNewUserName"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newUserEmail"
+            android:id="@+id/textViewNewUserEmail"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/editTextNewUserEmail"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newUserPhoneNumber"
+            android:id="@+id/textViewNewUserPhoneNumber"
+
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/editTextNewUserPhoneNumber"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newUserPassword"
+            android:id="@+id/textViewNewUserPassword"
+
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/editTextNewUserPassword"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/newUserButtonRegisterMe"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonCreateNewUser"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
+</RelativeLayout>

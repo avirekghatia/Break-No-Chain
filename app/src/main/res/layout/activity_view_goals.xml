@@ -6,7 +6,66 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.krishnaghatia.break_no_chain.Controllers.ViewGoalsActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goal details"
+        android:id="@+id/goal_details"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/goal_name"
+        android:layout_below="@+id/goal_details"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:id="@+id/start_date"
+        android:layout_below="@+id/goal_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:id="@+id/end_date"
+        android:layout_below="@+id/start_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Time"
+        android:id="@+id/notify_time"
+        android:layout_below="@+id/end_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shared With Friends"
+        android:id="@+id/share_frds"
+        android:layout_below="@+id/notify_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goal ID"
+        android:id="@+id/goal_id"
+        android:layout_below="@+id/share_frds"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

@@ -17,8 +17,8 @@ public class User implements Parcelable {
     private String name;
     private String emailId;
     private String phoneNumber;
-    private ArrayList<User> friendList;
-    private ArrayList<Goal> goalsList;
+    //private ArrayList<User> friendList;
+    //private ArrayList<Goal> goalsList;
 
     public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {
         public User createFromParcel(Parcel p) {
@@ -31,19 +31,21 @@ public class User implements Parcelable {
     };
 
     public User(Parcel g) {
-        name = g.readString();
-        emailId = g.readString();
-        phoneNumber = g.readString();
-        friendList = g.readTypedList(friendList, User.CREATOR);
-        goalsList = g.readTypedList(goalsList, Goal.CREATOR);
+        this.name = g.readString();
+        this.emailId = g.readString();
+        this.phoneNumber = g.readString();
+        //this.friendList = g.createTypedArrayList(User.CREATOR);
+        //this.goalsList = g.createTypedArrayList(User.CREATOR);
+        //friendList = g.readTypedList(friendList, User.CREATOR);
+        //goalsList = g.readTypedList(goalsList, Goal.CREATOR);
     }
 
-    public User(String name, String emailId, String phoneNumber, ArrayList friendList, ArrayList goalsList){
+    public User(String name, String emailId, String phoneNumber/*, ArrayList<User> friendList, ArrayList<Goal> goalsList*/){
         this.emailId = emailId;
         this.phoneNumber = phoneNumber;
         this.name = name;
-        this.friendList = friendList;
-        this.goalsList = goalsList;
+        //this.friendList = friendList;
+        //this.goalsList = goalsList;
     }
 
     @Override
@@ -52,8 +54,8 @@ public class User implements Parcelable {
         dest.writeString(emailId);
         dest.writeString(phoneNumber);
         dest.writeString(name);
-        dest.writeTypedList(friendList);
-        dest.writeTypedList(goalsList);
+        //dest.writeTypedList(friendList);
+        //dest.writeTypedList(goalsList);
 
     }
 
