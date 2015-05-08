@@ -93,6 +93,9 @@ public class CreateGoalActivity extends ActionBarActivity implements
             public void done(com.parse.ParseException e) {
                 if(e==null){
                     object_id = goal.getObjectId();
+                    if(object_id == null){
+                        System.out.println("Error occurred while saving. Please try again");
+                    }
                     System.out.println("The Object IS returned is "+object_id);
                 }
                 else {
